@@ -8,6 +8,7 @@ body {
 }
 .logo {
   margin-top: 50px;
+  margin-left: 4em;
 }
 .try {
   float: right;
@@ -15,6 +16,7 @@ body {
   border-radius: 40px;
   padding: 10px;
   border: none;
+  margin-right: 3em;
 }
 .flex {
   background-color: blueviolet;
@@ -23,90 +25,67 @@ body {
   align-items: center;
   justify-content: center;
 }
+h1 {
+  margin-top: 100px;
+  font-size: 50px;
+}
 .re-imagines {
   width: 30%;
   text-align: center;
 }
 .start {
   height: 40px;
-  width: 200px;
-}
-
-/* header h1 {
-  margin-left: 80px;
-  margin-top: 120px;
-}
-header p {
-  color: cornsilk;
-  position: absolute;
-  width: 390px;
-  padding: 0px;
-  margin-left: 20em;
-}
-flex button {
-  color: darkmagenta;
-}
-.start {
-  margin-top: 120px;
-  margin-left: 30em;
+  width: 250px;
   border-radius: 40px;
-  padding: 20px;
-  width: 200px;
-} */
+  margin-top: 5em;
+  padding: 30px;
+}
 .photo {
   margin-top: 100px;
-  height: 90%;
-  width: 80%;
-  display: flex;
-  flex-direction: center;
-  align-items: center;
-}
-/* span {
-  font-size: 50px;
-}
-.sent {
+  height: 70%;
+  width: 70%;
   margin-left: 10em;
 }
-p3 {
-  margin-left: 15em;
-} */
 .meters {
   background-color: blue;
   display: flex;
   flex-direction: row;
-  height: 100px;
-  justify-content: center;
+  height: 300px;
+}
+.community {
+  margin-left: 250px;
+  margin-top: 80px;
+}
+.messages {
+  margin-left: 350px;
+  margin-top: 80px;
+}
+span {
+  font-size: 50px;
 }
 main {
   color: red;
-  display: block;
 }
 .box1 {
   background-color: yellow;
   height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.together {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 150px;
 }
 h2a {
-  color: red;
-  position: absolute;
-  width: 200px;
-  padding: 0px;
-
-  margin-left: 7em;
-  margin-top: 5em;
-  font-size: 30px;
-}
-p1 {
-  color: red;
-  position: absolute;
-  width: 390px;
-  padding: 0px;
-  margin: 12em;
+  font-size: 40px;
+  align-items: center;
 }
 .grow {
-  float: right;
-  height: 450px;
-  width: 500px;
-  margin-right: 10em;
+  height: 400px;
+  width: 450px;
+  margin-right: 15em;
   margin-top: 50px;
 }
 .box2 {
@@ -157,4 +136,37 @@ p1 {
 h2b {
   font-size: 40px;
   margin-top: 100px;
+}
+footer {
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.logo2 {
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.paragraph {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.icon {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.box5 {
+  margin-top: 40px;
+  margin-left: 300px;
+}
+p3 {
+  display: flex;
+  flex-direction: row;
 }

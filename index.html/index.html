@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/webfonts/fa-brands-400.svg">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.min.css">
 </head>
 
 <body>
@@ -29,19 +29,25 @@
             <img class="photo" src="../huddle-landing-page-starter-main/images/screen-mockups.svg" alt="mockups">
         </div>
         <div class="meters">
-            <img class="image" src="../huddle-landing-page-starter-main/images/icon-communities.svg" alt="community">
-            <p2><br><span>1.4k+</span><br>
-                Communities Formed</p2>
-            <img class="sent" src="../huddle-landing-page-starter-main/images/icon-messages.svg" alt="sent messages">
-            <p3><br><span>2.7m+</span><br>
-                Messages Sent</p3>
+            <div class="community">
+                <img class="image" src="../huddle-landing-page-starter-main/images/icon-communities.svg"
+                    alt="community">
+                <p2><br><span>1.4k+</span><br>
+                    Communities Formed</p2>
+            </div>
+            <div class=messages>
+                <img class="sent" src="../huddle-landing-page-starter-main/images/icon-messages.svg"
+                    alt="sent messages">
+                <p3><br><span>2.7m+</span><br>
+                    Messages Sent</p3>
+            </div>
         </div>
         </div>
     </header>
     <main>
         <div class="container">
             <div class="box1">
-                <div>
+                <div class="together">
                     <h2a>Grow Together</h2a>
                     <p1>
                         Generate meaningful discussions with your audience and build a strong, loyal community.
@@ -76,38 +82,30 @@
         <button class="free">Get Started For Free</button>
     </div>
     <footer>
-        <img src="../huddle-landing-page-starter-main/images/logo.svg" alt="logo">
-        <div class="flex">
-            <div>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-                        vestibulum a, ultrices quis sem.</li>
-                    <li>Phone: +1-543-123-4567</li>
-                    <li>example@huddle.com</li>
-                </ul>
+        <div class="phone">
+            <img class="logo2" src="../huddle-landing-page-starter-main/images/logo.svg" alt="logo">
+            <div class="email">
+                <div class="paragraph">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Mauris nulla quam,
+                    hendrerit<br> lacinia vestibulum a, ultrices quis sem.</div>
+                <i class="fas fa-phone-volume">Phone: +1-543-123-4567</i>
+                <i class="fas fa-envelope-square">example@huddle.com</i>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-instagram-square"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-twitter-square"></i></a>
-                    </li>
-                </ul>
+            <div class="icon">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
             </div>
-            <div>
-                <div class=box flex>
-                    <h3>Newsletter</h3>
-                    <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-                        send you spam or pass on your email address</p>
-                    <input type="text">
-                    <button class="button" placeholder="subscribe">subscribe</button>
-                </div>
-            </div>
+        </div>
+        <div class=box5>
+            <h3>Newsletter</h3>
+            <p3>To recieve tips on how to grow your community,<br> sign up to our weekly newsletter. We’ll never
+                send you <br>spam or pass on your email address</p3>
+            <input type="text">
+            <button class="button" placeholder="subscribe">subscribe</button>
+        </div>
+
         </div>
     </footer>
 </body>
