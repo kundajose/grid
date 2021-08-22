@@ -12,7 +12,7 @@ body {
   margin: 0px;
 }
 .logo {
-  margin-top: 50px;
+  margin-top: 45px;
   margin-left: 4em;
 }
 .try {
@@ -74,6 +74,9 @@ button:hover {
 .strong {
   font-size: 60px;
 }
+.change {
+  color: hsl(192, 100%, 9%);
+}
 
 .messages {
   margin-right: 450px;
@@ -92,7 +95,8 @@ f main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 150px;
+  margin-left: 90px;
+  width: 30%;
 }
 .text {
   align-items: center;
@@ -203,13 +207,14 @@ a i:hover {
 }
 .box5 {
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 200px;
   width: 50%;
   font-size: 20px;
 }
 .receive {
-  /* display: flex;
-  flex-direction: row; */
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 input {
   margin-top: 10px;
@@ -240,4 +245,178 @@ input {
 .section-top-desk-top1 {
   width: 100vw;
   margin-bottom: -6px;
+}
+@media only screen and (max-width: 375px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+  }
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo {
+    margin-top: 60px;
+    margin-left: 1em;
+    width: 40%;
+    height: 20px;
+  }
+  .try {
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: hsl(0, 100%, 63%);
+    background-color: white;
+    width: 100px;
+    height: 8px;
+    padding: 20px;
+    margin-right: 5px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .title {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 90px;
+    font-weight: 600;
+    font-family: poppins;
+    text-align: center;
+  }
+  .re-imagines {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .start {
+    margin-left: 60px;
+  }
+  .photo {
+    margin-top: 100px;
+    height: 100%;
+    width: 80%;
+    margin-left: 2em;
+  }
+  .meters {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+  .community {
+    margin-left: 90px;
+  }
+  .messages {
+    margin-left: 90px;
+  }
+  .section-top-desk-top1 {
+    margin-top: 250px;
+    width: 0%;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 60px;
+  }
+  .together {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 200px;
+    width: 100%;
+    justify-content: center;
+  }
+  .Generate {
+    margin-right: 7px;
+  }
+
+  .grow {
+    margin-left: 5em;
+    font-size: 5px;
+    height: 300px;
+    width: 300px;
+  }
+  .text {
+    margin-left: 0px;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .table {
+    margin-left: 10px;
+  }
+  .ph {
+    float: none;
+    width: 350px;
+    padding: 10px;
+    margin-right: 0em;
+    text-align: center;
+  }
+  .box3 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .circle {
+    font-size: 10px;
+    height: 200px;
+    margin-left: 20px;
+  }
+  .ph1 {
+    text-align: center;
+    float: none;
+    width: 320px;
+    padding: 0px;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .build {
+    text-align: center;
+  }
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 950px;
+    width: 100%;
+  }
+  .box5 {
+    margin-left: 30px;
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+  }
+  .receive {
+    width: 95%;
+  }
+  .email {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .paragraph {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    /* margin-bottom: 30px; */
+    width: 100%;
+    padding-right: 30px;
+  }
+  a i {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .fa-comment-dots {
+    margin-left: 30px;
+  }
+  .button {
+    padding: 10px;
+    width: 180px;
+    margin-left: 95px;
+  }
 }
