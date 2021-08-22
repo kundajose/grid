@@ -46,6 +46,8 @@
         <div class="container">
             <img class="section-top-desk-top1"
                 src="huddle-landing-page-starter-main/images/bg-section-top-desktop-1.svg" alt="section-top-desk-top1">
+            <img class="section-top-mobile" src="/huddle-landing-page-starter-main/images/bg-section-top-mobile-1.svg"
+                alt="section-top-mobile">
             <div class="box1">
                 <div class="together">
                     <h2 class="text">Grow Together</h2>
@@ -59,6 +61,9 @@
             <img class="section-bottom-desktop1"
                 src="huddle-landing-page-starter-main/images/bg-section-bottom-desktop-1.svg"
                 alt="section-bottom-desktop1">
+            <img class="section-mobile-bottom1"
+                src="/huddle-landing-page-starter-main/images/bg-section-bottom-mobile-1.svg"
+                alt="section-mobile-bottom1">
             <div class="box2">
                 <img class="table" src="huddle-landing-page-starter-main/images/illustration-flowing-conversation.svg"
                     alt="follow conversation">
@@ -70,6 +75,8 @@
             </div>
             <img class="section-top-desk-top2"
                 src="huddle-landing-page-starter-main/images/bg-section-top-desktop-2.svg" alt="section-top-desk-top2">
+            <img class="section-mobile-top2" src="/huddle-landing-page-starter-main/images/bg-section-top-mobile-2.svg"
+                alt="section-mobile-top2">
             <div class="box3">
                 <div class="ph1">
                     <h2>Your Users</h2>
@@ -83,6 +90,8 @@
     </main>
     <img class="section-bottom-desktop" src="huddle-landing-page-starter-main/images/bg-section-bottom-desktop-2.svg"
         alt="section-bottom-desktop">
+    <img class="section-mobile-bottom2" src="/huddle-landing-page-starter-main/images/bg-section-bottom-mobile-2.svg"
+        alt="section-mobile-bottom2">
     <div class="box4">
         <h2 class="build">Ready To Build Your Community?</h2>
         <button class="free">Get Started For Free</button>
@@ -110,12 +119,16 @@
             <h3>Newsletter</h3>
             <p class="receive">To recieve tips on how to grow your community,sign up to our weekly newsletter.
                 We’ll neversend you spam or pass on your email address</p>
-            <input type="text">
-            <button class="button" placeholder="subscribe">subscribe</button>
+            <div class="validation">
+                <input id="email" class="email" type="email">
+                <button class="button" type="subscribe" onclick="validateEmail()">subscribe</button>
+            </div>
+            <h4 id="result"></h4>
         </div>
 
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>

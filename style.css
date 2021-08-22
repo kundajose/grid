@@ -165,15 +165,16 @@ footer {
   flex-direction: row;
   height: 450px;
   color: white;
+  width: 100%;
 }
 .email {
   display: flex;
   flex-direction: column;
-  margin-left: 60px;
+  margin-left: 80px;
   font-size: 20px;
 }
 .fa-comment-dots {
-  margin-left: 60px;
+  margin-left: 80px;
   margin-top: 90px;
   font-size: 50px;
 }
@@ -189,7 +190,7 @@ footer {
   margin-bottom: 15px;
 }
 .icon {
-  margin-left: 60px;
+  margin-left: 80px;
   margin-top: 60px;
 }
 a i {
@@ -207,7 +208,7 @@ a i:hover {
 }
 .box5 {
   margin-top: 100px;
-  margin-left: 200px;
+  margin-left: 300px;
   width: 50%;
   font-size: 20px;
 }
@@ -246,6 +247,18 @@ input {
   width: 100vw;
   margin-bottom: -6px;
 }
+.section-top-mobile {
+  display: none;
+}
+.section-mobile-bottom1 {
+  display: none;
+}
+.section-mobile-top2 {
+  display: none;
+}
+.section-mobile-bottom2 {
+  display: none;
+}
 @media only screen and (max-width: 375px) {
   body {
     height: 100vh;
@@ -260,7 +273,7 @@ input {
   .logo {
     margin-top: 60px;
     margin-left: 1em;
-    width: 40%;
+    width: 50%;
     height: 20px;
   }
   .try {
@@ -311,6 +324,7 @@ input {
   }
   .messages {
     margin-left: 90px;
+    width: 30%;
   }
   .section-top-desk-top1 {
     margin-top: 250px;
@@ -319,7 +333,7 @@ input {
   .box1 {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 60px;
+    margin-top: 0px;
   }
   .together {
     display: flex;
@@ -382,7 +396,7 @@ input {
     display: flex;
     flex-direction: column-reverse;
     height: 950px;
-    width: 100%;
+    width: 100vw;
   }
   .box5 {
     margin-left: 30px;
@@ -402,7 +416,6 @@ input {
     display: flex;
     flex-direction: row;
     margin-top: 15px;
-    /* margin-bottom: 30px; */
     width: 100%;
     padding-right: 30px;
   }
@@ -418,5 +431,20 @@ input {
     padding: 10px;
     width: 180px;
     margin-left: 95px;
+  }
+  .section-top-mobile {
+    display: block;
+    padding-top: 220px;
+  }
+  .section-mobile-bottom1,
+  .section-mobile-top2,
+  .section-mobile-bottom2 {
+    display: block;
+  }
+  .section-bottom-desktop,
+  .section-top-desk-top2,
+  .section-bottom-desktop1,
+  .section-top-desk-top1 {
+    display: none;
   }
 }
