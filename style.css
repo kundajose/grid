@@ -25,6 +25,9 @@ body {
   margin-right: 3em;
   background-color: white;
   color: hsl(0, 100%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .flex {
   display: flex;
@@ -40,6 +43,7 @@ body {
 .re-imagines {
   width: 30%;
   text-align: center;
+  font-family: opensans;
 }
 .start {
   height: 40px;
@@ -51,6 +55,9 @@ body {
   color: white;
   cursor: pointer;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 button:hover {
   background-color: hsl(321, 100%, 78%);
@@ -97,6 +104,8 @@ f main {
   justify-content: center;
   margin-left: 90px;
   width: 30%;
+  font-family: opensans;
+  font-weight: 700;
 }
 .text {
   align-items: center;
@@ -104,7 +113,8 @@ f main {
   font-weight: 400;
 }
 h2 {
-  font-family: opensans;
+  font-family: poppins;
+  font-weight: 600;
 }
 .grow {
   height: 400px;
@@ -135,6 +145,10 @@ h2 {
   margin-right: 15em;
   margin-left: 200px;
 }
+.time {
+  font-family: opensans;
+  font-weight: 600;
+}
 .circle {
   height: 400px;
 }
@@ -158,12 +172,13 @@ h2 {
 .build {
   font-weight: 700;
   margin-top: 60px;
+  font-family: poppins;
 }
 footer {
   background-color: hsl(192, 100%, 9%);
   display: flex;
   flex-direction: row;
-  height: 450px;
+  height: 500px;
   color: white;
   width: 100%;
 }
@@ -173,10 +188,11 @@ footer {
   margin-left: 80px;
   font-size: 20px;
 }
-.fa-comment-dots {
+.logo2 {
   margin-left: 80px;
   margin-top: 90px;
-  font-size: 50px;
+  font-size: 190px;
+  height: 40px;
 }
 .paragraph {
   display: flex;
@@ -184,6 +200,7 @@ footer {
   margin-top: 15px;
   margin-bottom: 30px;
   width: 400px;
+  font-family: opensans;
 }
 .fa-phone-volume {
   font-size: 20px;
@@ -209,25 +226,42 @@ a i:hover {
 .box5 {
   margin-top: 100px;
   margin-left: 300px;
-  width: 50%;
+  width: 70%;
   font-size: 20px;
 }
 .receive {
   display: flex;
   flex-direction: column;
   width: 60%;
+  font-family: opensans;
 }
 input {
   margin-top: 10px;
-  padding: 10px;
+  padding: 15px;
   width: 250px;
+  margin-left: 0%;
+  border-radius: 9px 9px 9px 9px;
+  border: none;
+}
+.validation {
+  display: flex;
+  flex-direction: row;
+  margin-left: -80px;
 }
 .button {
-  padding: 10px;
-  width: 180px;
+  padding: 0px;
+  width: 200px;
   margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 9px 9px 9px 9px;
+  border: none;
+  color: white;
   cursor: pointer;
   background-color: hsl(322, 100%, 66%);
+}
+#result {
+  color: hsl(0, 100%, 63%);
+  margin-top: -50px;
 }
 .footer-desktop {
   width: 100vw;
@@ -247,15 +281,9 @@ input {
   width: 100vw;
   margin-bottom: -6px;
 }
-.section-top-mobile {
-  display: none;
-}
-.section-mobile-bottom1 {
-  display: none;
-}
-.section-mobile-top2 {
-  display: none;
-}
+.section-top-mobile,
+.section-mobile-bottom1,
+.section-mobile-top2,
 .section-mobile-bottom2 {
   display: none;
 }
@@ -271,10 +299,10 @@ input {
     justify-content: space-between;
   }
   .logo {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 1em;
     width: 50%;
-    height: 20px;
+    height: 40px;
   }
   .try {
     border-radius: 20px;
@@ -297,7 +325,6 @@ input {
     margin-left: 10px;
     margin-top: 90px;
     font-weight: 600;
-    font-family: poppins;
     text-align: center;
   }
   .re-imagines {
@@ -405,7 +432,11 @@ input {
     height: 100%;
   }
   .receive {
-    width: 95%;
+    width: 90%;
+  }
+  h3 {
+    font-family: poppins;
+    font-weight: 700;
   }
   .email {
     display: flex;
@@ -424,13 +455,27 @@ input {
     font-size: 50px;
     margin-bottom: 40px;
   }
-  .fa-comment-dots {
+  .fa-facebook-square {
+    margin-left: -50px;
+  }
+  .logo2 {
     margin-left: 30px;
+    margin-top: 120px;
+    font-size: 100px;
+    height: 40px;
+  }
+  .validation {
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
   }
   .button {
-    padding: 10px;
-    width: 180px;
-    margin-left: 95px;
+    padding: 15px;
+    width: 110px;
+    margin-left: 250px;
+  }
+  input {
+    width: 300px;
   }
   .section-top-mobile {
     display: block;

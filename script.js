@@ -8,6 +8,6 @@ function validateEmail(mail){
 + value 
 return true; 
    }
-   result.innerHTML = 'chek your email please'
+   result.innerHTML = 'Chek your email please'
    return false;
 }
