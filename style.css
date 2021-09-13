@@ -261,7 +261,7 @@ input {
 }
 #result {
   color: hsl(0, 100%, 63%);
-  margin-top: -50px;
+  margin-top: 0px;
 }
 .footer-desktop {
   width: 100vw;
@@ -477,6 +477,11 @@ input {
   input {
     width: 300px;
   }
+  #result {
+    color: hsl(0, 100%, 63%);
+    margin-top: -50px;
+  }
+
   .section-top-mobile {
     display: block;
     padding-top: 220px;
